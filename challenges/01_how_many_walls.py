@@ -1,13 +1,14 @@
 """
-Challenge 01 · How many walls?                                        ★
+Question 1 · How many walls?
 
-Prompt given to the AI assistant:
-    "Write a Python script with IfcOpenShell that counts the walls
-     in MiniBIM.ifc."
+The request:
+    "Count the walls in MiniBIM.ifc."
 
-The assistant answered with the code below. It runs without errors.
-Your job: PREDICT the output, RUN it, find what is WRONG, FIX it,
-and EXPLAIN in one sentence why the AI got it wrong.
+This script was written for that request. It runs without errors.
+Your task: predict what it prints, run it, check the answer a second,
+independent way, fix it or defend it, and explain in one sentence.
+- How many walls does the model have? Is our wall one of them?
+- Why might someone choose IfcWallStandardCase instead of IfcWall?
 """
 import ifcopenshell
 from _paths import MINIBIM

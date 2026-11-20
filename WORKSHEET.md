@@ -2,64 +2,42 @@
 
 Name:
 
-For each challenge: what you predicted, what the script printed, the right answer (with the number that proves it), and one sentence on why the AI got it wrong.
+For each question: what you predicted, what the script printed, your answer with the number that proves it, and one sentence on why.
 
-## 01 · How many walls?
+## 1 · How many walls?
 - Prediction:
 - The script printed:
-- Right answer, and how I checked it:
-- Why the AI got it wrong:
+- My answer, and how I checked it:
+- Fix or defend? Why:
 
-## 02 · Where is our wall?
+## 2 · Where is our wall?
 - Prediction:
 - The script printed:
-- Right answer, and how I checked it:
-- Why the AI got it wrong:
-- Bonus: where is the wall on the national map grid?
+- My answer, and how I checked it:
+- Fix or defend? Why:
 
-## 03 · How many metres of wall?
+## 3 · How many walls like ours?
 - Prediction:
 - The script printed:
-- Right answer, and how I checked it:
-- Why the AI got it wrong:
+- My answer, and how I checked it:
+- Fix or defend? Why:
 
-## 04 · How many 300 mm walls?
+## 4 · Which walls have an opening?
 - Prediction:
 - The script printed:
-- Right answer, and how I checked it:
-- Why the AI got it wrong:
+- My answer, and how I checked it:
+- Is our wall in the list? Should it be?
+- What NetVolume and GrossVolume tell you in this file:
+- Fix or defend? Why:
 
-## 05 · Which walls have an opening?
+## 5 · Doors per storey
 - Prediction:
 - The script printed:
-- Right answer, and how I checked it:
-- Why the AI got it wrong:
+- My answer, and how I checked it:
+- Doors on the storey of our wall:
+- Fix or defend? Why:
 
-## 06 · Two scripts, two answers
-- Script A printed:
-- Script B printed:
-- What the file says, and why:
-- What a structural engineer would expect:
-- What I would report to the modeller:
-
-## 07 · Doors per storey
-- Prediction:
-- The script printed:
-- Right answer, and how I checked it:
-- Why the AI got it wrong:
-
-## 08 · Delete the basement
-- What was left behind (with numbers):
-- My fix:
+## 6 · Delete the basement
+- What is left behind (with numbers):
+- My script:
 - Proof that nothing is left behind:
-
-## 09 · The client's rules, in IDS
-- Does R1 check what its name says?
-- Does R2 check what its name says?
-- What IDS can check here, and what it can't:
-- R2 checked in Python (result):
-
-## 10 · Audit an AI-made model
-- What the AI auditor did not check:
-- My findings (each with a number):
-- Is the model fit for use? For what, and not for what?

@@ -1,12 +1,14 @@
 """
-Challenge 07 · Doors per storey                                       ★
+Question 5 · Doors per storey
 
-Prompt given to the AI assistant:
+The request:
     "For each storey of MiniBIM.ifc, count the doors."
 
-The assistant answered with the code below. It runs without errors.
-Your job: PREDICT the output, RUN it, find what is WRONG, FIX it,
-and EXPLAIN in one sentence why the AI got it wrong.
+This script was written for that request. It runs without errors.
+Your task: predict what it prints, run it, check the answer a second,
+independent way, fix it or defend it, and explain in one sentence.
+- How many doors are there on each storey? And on the storey of our wall?
+- Do your storey counts add up to the total number of doors?
 """
 import ifcopenshell
 from _paths import MINIBIM

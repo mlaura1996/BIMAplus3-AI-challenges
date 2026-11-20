@@ -1,19 +1,21 @@
 """
-Challenge 02 · Where is our wall?                                     ★
+Question 2 · Where is our wall?
 
-Prompt given to the AI assistant:
-    "Give me the coordinates of the wall with GlobalId
-     2pjBMhmIb9UvPqt$wR2ogX and tell me on which floor it is."
+The request:
+    "Give me the coordinates of the wall 2pjBMhmIb9UvPqt$wR2ogX
+     and tell me on which floor it is."
 
-The assistant answered with the code below. It runs without errors.
-Your job: PREDICT the output, RUN it, find what is WRONG, FIX it,
-and EXPLAIN in one sentence why the AI got it wrong.
+This script was written for that request. It runs without errors.
+Your task: predict what it prints, run it, check the answer a second,
+independent way, fix it or defend it, and explain in one sentence.
+- Where is our wall, in project coordinates?
+- On which storey is it, according to the file?
 """
 import ifcopenshell
-from _paths import MINIBIM
+from _paths import MINIBIM, WALL
 
 model = ifcopenshell.open(MINIBIM)
-wall = model.by_guid("2pjBMhmIb9UvPqt$wR2ogX")
+wall = model.by_guid(WALL)
 
 # The wall's position is stored in its ObjectPlacement
 placement = wall.ObjectPlacement.RelativePlacement
