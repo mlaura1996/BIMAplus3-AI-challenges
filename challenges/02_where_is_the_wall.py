@@ -2,7 +2,7 @@
 Question 2 · Where is our wall?
 
 The request:
-    "Give me the coordinates of the wall 2pjBMhmIb9UvPqt$wR2ogX
+    "Give me the coordinates of the wall with guid 2pjBMhmIb9UvPqt$wR2ogX
      and tell me on which floor it is."
 
 This script was written for that request. It runs without errors.

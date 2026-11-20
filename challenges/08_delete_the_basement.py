@@ -2,23 +2,22 @@
 Question 6 · Delete the basement
 
 The request:
-    "Remove everything on the basement storey (-1 kelder) of MiniBIM.ifc
-     and save the result as a new file."
+    "Remove everything on the basement storey named "-1 kelder" of
+     MiniBIM.ifc and save the result as a new file."
 
-This script was written for that request. It runs without errors and
-the new file opens in a viewer.
+This script was written for that request. It runs without errors.
 Your task: predict, run, check, fix or defend, explain.
-- The new file opens in a viewer. Is anything left behind? Count it.
+- Open the new file in a viewer. Is anything left behind? Count it.
 - If something is left, rewrite the script so that nothing is, and
-  prove it with the same counts.
+  check again in the viewer.
 """
 import ifcopenshell
 from _paths import MINIBIM, OUT
 
 model = ifcopenshell.open(MINIBIM)
 
-basement = next(s for s in model.by_type("IfcBuildingStorey")
-                if s.Name.startswith("-1"))
+basement = [s for s in model.by_type("IfcBuildingStorey")
+            if s.Name.startswith("-1")][0]
 
 removed = 0
 for rel in basement.ContainsElements:

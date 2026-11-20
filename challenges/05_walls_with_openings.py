@@ -8,11 +8,9 @@ The request:
 This script was written for that request. It runs without errors.
 Your task: predict what it prints, run it, check the answer a second,
 independent way, fix it or defend it, and explain in one sentence.
-- How many walls have at least one opening? Is our wall in the list,
-  and should it be?
+- How many walls have at least one opening?
 - Is there another way to check whether a wall has an opening?
-- What do NetVolume and GrossVolume really tell you in this file?
-  When could they be wrong?
+- What do NetVolume and GrossVolume mean? When could they be wrong?
 """
 import ifcopenshell
 import ifcopenshell.util.element

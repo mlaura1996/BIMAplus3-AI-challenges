@@ -9,7 +9,8 @@ This script was written for that request. It runs without errors.
 Your task: predict what it prints, run it, check the answer a second,
 independent way, fix it or defend it, and explain in one sentence.
 - How many 300 mm walls are there?
-- Count them a second, independent way. Do the two numbers agree?
+- Count them a second, independent way, even manually if you want.
+  Do the two numbers agree?
 """
 import ifcopenshell
 import ifcopenshell.util.element

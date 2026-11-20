@@ -7,8 +7,9 @@ The request:
 This script was written for that request. It runs without errors.
 Your task: predict what it prints, run it, check the answer a second,
 independent way, fix it or defend it, and explain in one sentence.
-- How many doors are there on each storey? And on the storey of our wall?
-- Do your storey counts add up to the total number of doors?
+- How many doors are there on each storey?
+- Are there any doors in the project not included in storeys?
+  How to prove that?
 """
 import ifcopenshell
 from _paths import MINIBIM
